@@ -3910,7 +3910,8 @@
 03-20 13:45:11.813  1058  1100 D WindowOrientationListener: WindowOrientationListener disabled
 03-20 13:45:11.814  1244  1278 D KeyguardViewMediator: notifyScreenTurnedOff
 03-20 13:45:11.814  1244  1244 D KeyguardViewMediator: handleNotifyScreenTurnedOff
-03-20 13:45:11.815   700   700 I Accelerometer: enable: handle:0, en:0
+03-20 13:45:11.815   700   700 I Accelerometer: enable: handle:0, en:0
+
 03-20 13:45:11.840  1244  1326 D VibrateTile: handleUpdateState: state.value = true
 03-20 13:45:11.844   502  1788 I BufferQueueProducer: [StatusBar#0](this:0xb400007570dfede8,id:5,api:1,p:1244,c:502) queueBuffer: fps=0.53 dur=1869.66 max=1869.66 min=1869.66
 03-20 13:45:11.852   502  1788 I BufferQueueProducer: [ColorFade#0](id:1f60000003d,api:1,p:1058,c:502) disconnect(): api=1
@@ -4014,8 +4015,10 @@
 03-20 13:45:36.570  1058  3523 W WindowManager: Changing focus fromnull to Window{3196a8 u0 com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:457 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:5602 com.android.server.wm.WindowManagerService.relayoutWindow:2395 com.android.server.wm.Session.relayout:213 
 03-20 13:45:36.577   502  1788 I BufferQueueProducer: [com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#0](id:1f60000003e,api:1,p:1398,c:502) connect(): api=1 producerControlledByApp=false
 03-20 13:45:36.584  1058  1074 D WindowOrientationListener: WindowOrientationListener enabled clearCurrentRotation=true
-03-20 13:45:36.588   700   700 I Accelerometer: batch: handle:0, flag:0,samplingPeriodNs:20000000 maxBatchReportLatencyNs:100000000
-03-20 13:45:36.589   700   700 I Accelerometer: enable: handle:0, en:1
+03-20 13:45:36.588   700   700 I Accelerometer: batch: handle:0, flag:0,samplingPeriodNs:20000000 maxBatchReportLatencyNs:100000000
+
+03-20 13:45:36.589   700   700 I Accelerometer: enable: handle:0, en:1
+
 03-20 13:45:36.628  1058  1100 I DisplayPowerController: Unblocked screen on after 169 ms
 03-20 13:45:36.657  1801  1801 V PhoneWindow: DecorView setVisiblity: visibility = 8, Parent = android.view.ViewRootImpl@e7c9253, this = DecorView@ed1c790[InputMethod]
 03-20 13:45:36.658  1058  1076 I DisplayManagerService: Display device changed state: "Built-in Screen", ON
@@ -4197,7 +4200,8 @@
 03-20 13:46:07.783  1058  1100 D WindowOrientationListener: WindowOrientationListener disabled
 03-20 13:46:07.783  1244  1734 D KeyguardViewMediator: notifyScreenTurnedOff
 03-20 13:46:07.783  1244  1244 D KeyguardViewMediator: handleNotifyScreenTurnedOff
-03-20 13:46:07.794   700   700 I Accelerometer: enable: handle:0, en:0
+03-20 13:46:07.794   700   700 I Accelerometer: enable: handle:0, en:0
+
 03-20 13:46:07.797  1244  1326 D VibrateTile: handleUpdateState: state.value = true
 03-20 13:46:07.834   502  1788 I BufferQueueProducer: [ColorFade#0](id:1f60000003f,api:1,p:1058,c:502) disconnect(): api=1
 03-20 13:46:07.835  1058  1100 E Surface : getSlotFromBufferLocked: unknown buffer: 0xb4000079e78204f0
@@ -4295,8 +4299,10 @@
 03-20 13:46:20.587   502   972 I BufferQueue: [unnamed-502-64](this:0xb400007570e13f38,id:64,api:0,p:-1,c:-1) BufferQueue core=(502:/system/bin/surfaceflinger)
 03-20 13:46:20.590  1058  1577 W WindowManager: Changing focus fromnull to Window{3196a8 u0 com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:457 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:5602 com.android.server.wm.WindowManagerService.relayoutWindow:2395 com.android.server.wm.Session.relayout:213 
 03-20 13:46:20.592  1058  1074 D WindowOrientationListener: WindowOrientationListener enabled clearCurrentRotation=true
-03-20 13:46:20.594   700   700 I Accelerometer: batch: handle:0, flag:0,samplingPeriodNs:20000000 maxBatchReportLatencyNs:100000000
-03-20 13:46:20.595   700   700 I Accelerometer: enable: handle:0, en:1
+03-20 13:46:20.594   700   700 I Accelerometer: batch: handle:0, flag:0,samplingPeriodNs:20000000 maxBatchReportLatencyNs:100000000
+
+03-20 13:46:20.595   700   700 I Accelerometer: enable: handle:0, en:1
+
 03-20 13:46:20.597   502   973 I BufferQueueProducer: [com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#0](id:1f600000040,api:1,p:1398,c:502) connect(): api=1 producerControlledByApp=false
 03-20 13:46:20.607  1244  1326 D VibrateTile: handleUpdateState: state.value = true
 03-20 13:46:20.612   502   571 I BufferQueueProducer: [StatusBar#0](this:0xb400007570dfede8,id:5,api:1,p:1244,c:502) queueBuffer: fps=0.22 dur=13501.89 max=12809.52 min=22.77
